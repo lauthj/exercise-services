@@ -19,7 +19,7 @@ public class ActivityResource {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	public Collection<Activity> getAllActivities() {
+	public List<Activity> getAllActivities() {
 		
 		return activityRepository.findAllActivities();
 		//return "Joe is cool";
