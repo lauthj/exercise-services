@@ -22,6 +22,12 @@ public class ActivityRepositoryStub implements ActivityRepository {
 		activity2.setDescription("Cycling");
 		activity2.setDuration(120);
 		activities.add(activity2);
+		
+		Activity activity3 = new Activity();
+		
+		activity3.setDescription("Pumping Iron");
+		activity3.setDuration(45);
+		activities.add(activity3);
 		 
 		return activities;
 		
